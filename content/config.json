@@ -14,7 +14,10 @@
     },
     {
       "label": "Techy",
-      "path": "/collections/technical"
+      "path": "/tag/technical"
+    },{
+      "label": "Web3",
+      "path": "/tag/web3"
     },
     {
       "label": "About me",

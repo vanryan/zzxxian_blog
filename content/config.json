@@ -1,7 +1,7 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+  "title": "Shane Z's Personal Blog",
+  "url": "https://zzxxian.netlify.com",
+  "subtitle": "Traceur",
   "copyright": "© All rights reserved.",
   "googleAnalyticsId": "UA-73379983-2",
   "disqusShortname": "",
@@ -13,6 +13,10 @@
       "path": "/"
     },
     {
+      "label": "Techy",
+      "path": "/collections/technical"
+    },
+    {
       "label": "About me",
       "path": "/pages/about"
     },
@@ -22,16 +26,16 @@
     }
   ],
   "author": {
-    "name": "John Doe",
+    "name": "Shane Z",
     "photo": "/photo.jpg",
-    "bio": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "bio": "Traceur",
     "contacts": {
       "rss": "",
       "email": "",
       "github": "#",
       "facebook": "#",
       "telegram": "#",
-      "twitter": "#",
+      "twitter": "freenik2_vr",
       "linkedin": "#",
       "instagram": "#",
       "line": "",

@@ -1,5 +1,5 @@
 ---
-title: 5个用/不用GraphQL的理由 -- 5 reasons (not) to use GraohQL
+title: 5个用/不用GraphQL的理由 -- 5 reasons (not) to use GraphQL
 date: "2018-09-27T22:37:43.330Z"
 template: post
 draft: false

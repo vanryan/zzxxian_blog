@@ -11,6 +11,8 @@ const IndexPage = () => {
   collection_map.set('XDIV1', 'Closely Watching')
   collection_map.set('moonbirds', 'proof-moonbirds');
   collection_map.set('MAYC', 'mutant-ape-yacht-club');
+  collection_map.set('JamesJean', 'fragments-by-james-jean');
+  collection_map.set('VeeCon', 'veecon-tickets');
   collection_map.set('XDIV2', 'Holding')
   collection_map.set('WoW', 'world-of-women-nft');
   collection_map.set('Premint', 'premint-collector');
@@ -23,12 +25,15 @@ const IndexPage = () => {
   collection_map.set('adidas', 'adidasoriginals');
   collection_map.set('XDIV3','WatchingBC');
   collection_map.set('doodles', 'doodles-official');
-  collection_map.set('azuki', 'azuki');
   collection_map.set('clonex', 'clonex');
+  collection_map.set('azuki', 'azuki');
+  collection_map.set('beanz', 'beanzofficial');
   collection_map.set('CA', 'champions-ascension-prime-eternal');
   collection_map.set('XDIV4', 'bystanding')
   collection_map.set('PA', 'psychedelics-anonymous-genesis');
   collection_map.set('mfers', 'mfers');
+  collection_map.set('fanglijun', 'elemental-fang-lijun');
+  collection_map.set('cyberbrokers', 'cyberbrokers');
   let collection_element = <tr><th>Collection</th><th>FloorPrice&nbsp;</th><th>DailyAve&nbsp;</th>
     <th>1DayVol&nbsp;</th><th>7DayVol&nbsp;</th><th>#Owner</th></tr>;
   

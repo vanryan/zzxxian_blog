@@ -13,6 +13,7 @@ const IndexPage = () => {
   collection_map.set('MAYC', 'mutant-ape-yacht-club');
   collection_map.set('JamesJean', 'fragments-by-james-jean');
   collection_map.set('VeeCon', 'veecon-tickets');
+  collection_map.set('MB Oddities', 'moonbirds-oddities');
   collection_map.set('XDIV2', 'Holding')
   collection_map.set('WoW', 'world-of-women-nft');
   collection_map.set('Premint', 'premint-collector');

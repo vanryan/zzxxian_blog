@@ -15,8 +15,8 @@ const IndexPage = () => {
   collection_map.set('solana','solana');
   collection_map.set('terra-luna','terra-luna');
   collection_map.set('apecoin','apecoin');
-  collection_map.set('XDIV4', 'bystanding')
   collection_map.set('avax','avalanche-2');
+
   let collection_element = <tr><th>Crypto</th><th>CurrentPrice&nbsp;</th><th>PriceChange24h&nbsp;</th>
     <th>MCChange24h&nbsp;</th><th>High24h&nbsp;</th><th>Low24h</th></tr>;
   
@@ -31,7 +31,8 @@ const IndexPage = () => {
         <td></td>
         <td></td>
         </tr></>);
-    } else{
+    }  else {
+      // crypto
       const [x, y] = useState('') 
       // TODO combine in one http call
       const url = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=" + value;

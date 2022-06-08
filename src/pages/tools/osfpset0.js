@@ -11,10 +11,10 @@ const IndexPage = () => {
   collection_map.set('XDIV1', 'Closely Watching')
   collection_map.set('moonbirds', 'proof-moonbirds');
   collection_map.set('MAYC', 'mutant-ape-yacht-club');
-  collection_map.set('JamesJean', 'fragments-by-james-jean');
-  collection_map.set('VeeCon', 'veecon-tickets');
-  collection_map.set('rektguy', 'rektguy');
   collection_map.set('MB Oddities', 'moonbirds-oddities');
+  collection_map.set('MirrorPass', 'mirror-passes');
+  collection_map.set('BeginAsNothing', 'begin-as-nothing');
+  collection_map.set('FTC', 'ftc-official');
   collection_map.set('XDIV2', 'Holding')
   collection_map.set('WoW', 'world-of-women-nft');
   collection_map.set('Premint', 'premint-collector');
@@ -36,6 +36,9 @@ const IndexPage = () => {
   collection_map.set('mfers', 'mfers');
   collection_map.set('fanglijun', 'elemental-fang-lijun');
   collection_map.set('cyberbrokers', 'cyberbrokers');
+  collection_map.set('JamesJean', 'fragments-by-james-jean');
+  collection_map.set('VeeCon', 'veecon-tickets');
+  collection_map.set('rektguy', 'rektguy');
   let collection_element = <tr><th>Collection</th><th>FloorPrice&nbsp;</th><th>DailyAve&nbsp;</th>
     <th>1DayVol&nbsp;</th><th>7DayVol&nbsp;</th><th>#Owner</th></tr>;
   

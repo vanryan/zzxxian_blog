@@ -16,6 +16,10 @@ const IndexPage = () => {
   collection_map.set('terra-luna','terra-luna');
   collection_map.set('apecoin','apecoin');
   collection_map.set('avax','avalanche-2');
+  
+  collection_map.set('XDIV2', 'SmallCap');
+  collection_map.set('cel','celsius-degree-token');
+  
 
   let collection_element = <tr><th>Crypto</th><th>CurrentPrice&nbsp;</th><th>PriceChange24h&nbsp;</th>
     <th>MCChange24h&nbsp;</th><th>High24h&nbsp;</th><th>Low24h</th></tr>;
@@ -33,32 +37,48 @@ const IndexPage = () => {
         </tr></>);
     }  else {
       // crypto
-      const [x, y] = useState('') 
+      const [price, setPrice] = useState('') 
+      const [high_24h, setHigh24h] = useState('') 
+      const [low_24h, setLow24h] = useState('') 
+      const [mdata, setMarketData] = useState('')
       // TODO combine in one http call
-      const url = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=" + value;
+      // const url = "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&ids=" + value;
+      const url = "https://api.coingecko.com/api/v3/coins/" + value;
+   
       useEffect(() => {
         fetch(url)
         .then(response => response.json())
-        .then(resultData => {
-        y(resultData[0])
-      })
+        .then(result => {setMarketData(result["market_data"]);
+        setPrice(result['market_data']['current_price']);
+        setHigh24h(result['market_data']['high_24h']);
+        setLow24h(result['market_data']['low_24h']);
+        })
   },[])
     collection_element = (<>{collection_element}
       <tr>
-        <td><b>&emsp;{key}&nbsp;</b></td>
+          <td><b>&emsp;{key}&nbsp;</b></td>
+        <td>{parseFloat(price.usd).toFixed(4)}</td>
+        <td>{parseFloat(mdata.price_change_percentage_24h).toFixed(2)}</td>
+        <td>{parseFloat(mdata.market_cap_change_percentage_24h).toFixed(2)}</td>
+        <td>{parseFloat(high_24h.usd).toFixed(2)}</td>
+        <td>{parseFloat(low_24h.usd).toFixed(2)}</td> 
+
+
+      </tr></>)
+    }
+  }
+/*
         <td>{parseFloat(x.current_price).toFixed(4)}</td>
         <td>{parseFloat(x.price_change_percentage_24h).toFixed(2)}</td>
         <td>{parseFloat(x.market_cap_change_percentage_24h).toFixed(2)}</td>
         <td>{parseFloat(x.high_24h).toFixed(2)}</td>
         <td>{parseFloat(x.low_24h).toFixed(2)}</td>  
-      </tr>
-      </>)
-    }
-  }
+
+       */
 
   return (
     <>
-      <h2>OpenSea Collections Data</h2>
+      <h2>Crypto Data</h2>
       <p>
         <table>
         {collection_element}

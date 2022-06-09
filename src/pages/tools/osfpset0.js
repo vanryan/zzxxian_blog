@@ -42,6 +42,28 @@ const IndexPage = () => {
   let collection_element = <tr><th>Collection</th><th>FloorPrice&nbsp;</th><th>DailyAve&nbsp;</th>
     <th>1DayVol&nbsp;</th><th>7DayVol&nbsp;</th><th>#Owner</th></tr>;
   
+  const [baseFee, setBaseFee] = useState('');
+  const [basics, setBasics] = useState('');
+  const [speed0, setSpeed0] = useState('');
+  const [speed1, setSpeed1] = useState('');
+  const [speed2, setSpeed2] = useState('');
+  const [speed3, setSpeed3] = useState('');
+  
+  const gasUrl = 'https://owlracle.info/eth/gas';
+  useEffect(() => {
+    fetch(gasUrl)
+      .then(response => response.json())
+    .then(data => {
+      setBaseFee(data["baseFee"]);
+      setBasics(data);
+      setSpeed0(data["speeds"][0]);
+      setSpeed1(data["speeds"][1]);
+      setSpeed2(data["speeds"][2]);
+      setSpeed3(data["speeds"][3]);
+    })
+  },[]);
+  
+  
   for (var [key, value] of collection_map.entries()) { 
     if (key.startsWith('XDIV')) {
       collection_element = (<>{collection_element}
@@ -54,7 +76,7 @@ const IndexPage = () => {
         <td></td>
         </tr></>);
     } else{
-      const [x, y] = useState('') 
+      const [x, y] = useState(''); 
     const url = 'https://api.opensea.io/api/v1/collection/' + value + '/stats?format=json';
       useEffect(() => {
         fetch(url)
@@ -78,7 +100,39 @@ const IndexPage = () => {
 
   return (
     <>
-      <h2>OpenSea Collections Data</h2>
+      <h3>Eth Gas</h3>
+      <table>
+      <tr>
+        <th>BaseFee</th>
+        <th>AvgTime</th>
+        <th>LastBlock</th>
+        <th>Timestamp</th>
+      </tr>
+      <tr>
+        <td>{parseFloat(baseFee).toFixed(3)}</td>
+        <td>{parseFloat(basics.avgTime).toFixed(3)}</td>
+        <td>{basics.lastBlock}</td>
+        <td>{basics.timestamp}</td>
+      </tr>
+      </table>
+      <table>
+      <tr>
+          <th>0-accept</th><th>gas</th><th>estimatedFee</th>&nbsp;|
+          <th>1-accept</th><th>gas</th><th>estimatedFee</th>&nbsp;|
+          <th>2-accept</th><th>gas</th><th>estimatedFee</th>&nbsp;|
+          <th>3-accept</th><th>gas</th><th>estimatedFee</th>
+      </tr>
+      <tr>
+        <td>{speed0.acceptance}</td><td>{parseFloat(speed0.gasPrice).toFixed(2)},&nbsp;</td><td>{parseFloat(speed0.estimatedFee).toFixed(2)}</td>&nbsp;|
+        <td>{speed1.acceptance}</td><td>{parseFloat(speed1.gasPrice).toFixed(2)},&nbsp;</td><td>{parseFloat(speed1.estimatedFee).toFixed(2)}</td>&nbsp;|
+        <td>{speed2.acceptance}</td><td>{parseFloat(speed2.gasPrice).toFixed(2)},&nbsp;</td><td>{parseFloat(speed2.estimatedFee).toFixed(2)}</td>&nbsp;|
+        <td>{speed3.acceptance}</td><td>{parseFloat(speed3.gasPrice).toFixed(2)},&nbsp;</td><td>{parseFloat(speed3.estimatedFee).toFixed(2)}</td>
+      </tr>
+      </table>
+
+      <h2>OpenSeas Data</h2>
+    
+      
       <p>
         <table>
         {collection_element}

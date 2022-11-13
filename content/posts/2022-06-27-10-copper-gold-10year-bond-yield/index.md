@@ -6,9 +6,9 @@ draft: false
 slug: "copper-gold-ratio-v-10-year-t-yield" 
 category: "finance"
 tags:
-  - "Finance"
-  - "Econ"
-  - "Market"
+  - "finance"
+  - "econ"
+  - "market"
 description: "How is copper/gold ratio reflecting the 10 year treasury yield"
 ---
 

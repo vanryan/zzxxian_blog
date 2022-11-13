@@ -8,12 +8,12 @@ category: "DATASTORE"
 collection: "technical"
 tags:
     - "technical"
-    - "Frontend"
+    - "frontend"
     - "GraphQL"
     - "React"
-    - "Datastore"
-    - "Performance"
-    - "Engineering"
+    - "datastore"
+    - "performance"
+    - "engineering"
 description: "GraphQL能大大提升开发效率，但是也可能让你的数据库万劫不复。"
 ---
 

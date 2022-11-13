@@ -8,12 +8,12 @@ category: "gengo"
 collection: "misc"
 tags:
     - "misc"
-    - "Language"
-    - "Japanese"
-    - "Chinese"
-    - "French"
-    - "Korean"
-    - "English"
+    - "language"
+    - "japanese"
+    - "chinese"
+    - "french"
+    - "korean"
+    - "english"
 description: "Lundi, Mardi, Mercredi, Jeudi... Oh là là, TGIF!"
 ---
 

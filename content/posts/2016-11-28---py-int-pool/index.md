@@ -7,10 +7,10 @@ slug: python-int-pool
 category: "programming-lang"
 tags:
   - "technical"
-  - "Python"
-  - "Internal"
-  - "Programming"
-  - "Object"
+  - "python"
+  - "internal"
+  - "programming"
+  - "object"
 description: "Python里面，整数对象的头文件intobject.h，也可以在Include/目录里找到，
     这一文件定义了PyIntObject这一结构体作为Python中的整数对象"
 ---

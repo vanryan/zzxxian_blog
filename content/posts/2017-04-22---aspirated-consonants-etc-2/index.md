@@ -8,11 +8,11 @@ category: "gengo"
 collection: "misc"
 tags:
   - "misc"
-  - "Language"
-  - "Japanese"
-  - "Chinese"
-  - "Phonetics"
-  - "English"
+  - "language"
+  - "japanese"
+  - "chinese"
+  - "phonetics"
+  - "english"
 description: "某个语言使用者，对其使用语言的某个表意声音单位的声音认知。"
 ---
 

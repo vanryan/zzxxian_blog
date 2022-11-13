@@ -6,11 +6,11 @@ draft: false
 category: "gengo"
 tags:
   - "misc"
-  - "Language"
-  - "Japanese"
-  - "Chinese"
-  - "Phonetics"
-  - "English"
+  - "language"
+  - "japanese"
+  - "chinese"
+  - "phonetics"
+  - "english"
 description: "如何区别送气／不送气音，清音／浊音"
 ---
 

@@ -8,10 +8,10 @@ category: "networking"
 collection: "technical"
 tags:
   - "technical"
-  - "Ethernet"
-  - "Networking"
+  - "ethernet"
+  - "networking"
   - "AWS"
-  - "Computer Networks"
+  - "computer-networks"
 description: "如何增加网络吞吐量：1500 MTU seems too small, let us sextuple it!"
 ---
 

@@ -7,9 +7,9 @@ path: "/posts/down-by-the-salley-gardens/"
 category: "critics"
 tags:
   - "misc"
-  - "Literature"
-  - "English"
-  - "Yeats"
+  - "literature"
+  - "english"
+  - "yeats"
   - "诗经"
 description: "叶芝(William Butler Yeats)--柳园里(Down by the Salley Garden)"
 ---

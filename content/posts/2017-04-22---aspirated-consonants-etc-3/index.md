@@ -8,9 +8,9 @@ category: "gengo"
 collection: "misc"
 tags:
   - "misc"
-  - "Language"
-  - "Phonetics"
-  - "Korean"
+  - "language"
+  - "phonetics"
+  - "korean"
 description: "
     松音（평음，汉字-平音）：ㄱ,ㄷ,ㅂ,ㅅ,ㅈ
     紧音（경음，汉字-硬音）：ㄲ,ㄸ,ㅃ,ㅆ,ㅉ

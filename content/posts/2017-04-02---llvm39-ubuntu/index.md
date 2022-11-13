@@ -8,10 +8,10 @@ category: "compiler"
 tags:
   - "technical"
   - "LLVM"
-  - "Debian"
-  - "Installation"
-  - "Compiler"
-  - "Ubuntu"
+  - "debian"
+  - "installation"
+  - "compiler"
+  - "ubuntu"
 description: "How to install LLVM 3.9/4.0 on Debian / Ubuntu"
 ---
 

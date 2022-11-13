@@ -7,12 +7,12 @@ path: "/posts/why-we-have-accents/"
 category: "gengo"
 tags:
   - "misc"
-  - "Language"
-  - "Japanese"
-  - "Chinese"
-  - "Korean"
-  - "Phonetics"
-  - "English"
+  - "language"
+  - "japanese"
+  - "chinese"
+  - "korean"
+  - "phonetics"
+  - "english"
 description: "直树念了两遍on purpose，第一遍是美式发音，琴子完全没听懂，第二遍他切换到了日式发音，琴子就立马听懂了。"
 ---
 

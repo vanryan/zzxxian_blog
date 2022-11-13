@@ -62,6 +62,7 @@ Other notes:
 - The local address to BMBF can be seen on Quest when you run BMBF, you can access that from your laptop using the same WiFi, and then you'd be able to manage your songs easily from your browser.
 - Back up data before starting any update workflows or anything involving reinstalling Beat Saber. You do not want to lose your data.
 - Headset (Quest 2 for e.g.) allows usb debugging. Not sure if usb-c debugging is supported now but I generally do not use the usbc cable that comes with the headset
+- BMBF needs to be opened in the "..Unknown Source" section of the app library on Quest. (Used to be easier to navigate, but after the "Meta" movement of Facebook, a lot of changes are made on the menu back and forth)
 
 
 

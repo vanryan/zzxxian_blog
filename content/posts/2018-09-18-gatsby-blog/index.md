@@ -7,10 +7,10 @@ slug: "gatsby-blog"
 category: "frontend"
 tags:
   - "technical"
-  - "Blog"
+  - "blog"
   - "React"
   - "Gatsby"
-  - "Frontend"
+  - "frontend"
   - "GraphQL"
 description: "Your new blog site will be powered by React and GraphQL"
 ---

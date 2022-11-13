@@ -8,7 +8,7 @@ category: "frontend"
 tags:
   - "technical"
   - "blog"
-  - "React"
+  - "reactjs"
   - "Gatsby"
   - "frontend"
   - "GraphQL"

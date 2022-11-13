@@ -8,9 +8,9 @@ category: "methodology"
 tags:
   - "misc"
   - "CFA"
-  - "Finance"
-  - "Study"
-  - "Examination"
+  - "finance"
+  - "study"
+  - "examination"
 description: "How to study for CFA Level 1 as an absolute newbie"
 ---
 

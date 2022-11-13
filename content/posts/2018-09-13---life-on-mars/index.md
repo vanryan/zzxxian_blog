@@ -8,10 +8,11 @@ category: "critics"
 collection: "misc"
 tags:
   - "misc"
-  - "Dramas"
-  - "Movies"
-  - "Mental Experiment"
-  - "Cognition"
+  - "dramas"
+  - "movie"
+  - "film"
+  - "mental-experiment"
+  - "cognition"
 description: "Our life is what our thoughts make it."
 ---
 

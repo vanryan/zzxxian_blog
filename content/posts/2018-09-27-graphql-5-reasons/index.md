@@ -10,7 +10,7 @@ tags:
     - "technical"
     - "frontend"
     - "GraphQL"
-    - "React"
+    - "reactjs"
     - "datastore"
     - "performance"
     - "engineering"

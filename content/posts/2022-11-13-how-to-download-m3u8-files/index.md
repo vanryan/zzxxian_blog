@@ -12,6 +12,7 @@ tags:
   - "tool"
   - "video"
   - "stream"
+  - "technical"
 ---
 
 It is inevitable that one runs into .m3u or .m3u8 files these days, whether one notices this or not. If one used to download videos from websites more than 12+ years ago, one would remember retrieving flash -- .flv files with the developer tools. It is a similar process to get .m3u/.m3u8 files -- turn on developer tools, reload the page and the network function will give you .m3u/.m3u8 files.

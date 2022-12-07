@@ -46,7 +46,7 @@ TLDR: 对门外汉来说，这是一个不简单，不轻松，但通过自律�
 
 然后就是从各个网站（豆瓣，知乎，analystforum, efinancialcareers, etc）找到备考的策略／经历／建议。这一点还是很有得说的。我的经历中，这个[Analyst Forum](https://www.analystforum.com/)的帮助贯穿了整个备考期间。它的活跃程度不比国内的有些论坛，更不比备考的上百人微信群。但是我自己有疑惑的地方，却常常是在这上面找到答案。不过可能一部分原因是我看不懂金融中文吧（笑），毕竟国内的同学们大概是可以无缝切换术语的中英文的，但对于直接学习CFA的教材或者notes的人，这一点的确难于登天，所以反倒就造成了看不懂中文的情况。事实上这种事情在我浏览中文的技术文章时也偶有发生，比如第一次看到“运行时”这个词，作为名词出现的时候，我完全没有意识到它跟runtime的对应关系；或者说听到别人说元组的时候，我想到的不是tuple，而是下图的元祖。当然这并不是翻译好不好的问题，这单纯是对中文术语的陌生。
 
-![“元组”](http://upload-images.jianshu.io/upload_images/72299-08d53b6a997610be.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![“元组”](https://upload-images.jianshu.io/upload_images/72299-08d53b6a997610be.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 豆瓣和知乎都有很多关于CFA和备考的帖子，让我受益匪浅。通过阅读这些经验，我主要
 
@@ -66,7 +66,7 @@ TLDR: 对门外汉来说，这是一个不简单，不轻松，但通过自律�
 - 其他
   - 计时工具。用一个简单的计时软件，帮助自己掌握自己的时间开支，还是很有意义的。
   - 复习工具。比如很好用的Anki，可以帮助我们把碎片时间都利用起来。很多概念／公式／术语／题目，我都放在了Anki上，它的的确确帮助了我牢牢记住了它们（以至于到考试前一个月我甚至觉得好些之前看了许多遍的知识有点烦人哈哈哈）
- - Google/百度/DuckDuckGo。一级考试，主要是考基础知识，所以很多内容一定搜的到。除开搜索引擎，像[Investopedia](https://www.investopedia.com/), [InvestingAnswers](http://www.investinganswers.com/financial-dictionary/businesses-corporations/revenue-5108), [Accounting Coach](https://www.accountingcoach.com/) 这些网站也给了我极大的帮助。比如Investopedia有很多解释概念的短视频，可以很快帮我们建立起一些概念的印象。
+ - Google/百度/DuckDuckGo。一级考试，主要是考基础知识，所以很多内容一定搜的到。除开搜索引擎，像[Investopedia](https://www.investopedia.com/), [InvestingAnswers](https://www.investinganswers.com/financial-dictionary/businesses-corporations/revenue-5108), [Accounting Coach](https://www.accountingcoach.com/) 这些网站也给了我极大的帮助。比如Investopedia有很多解释概念的短视频，可以很快帮我们建立起一些概念的印象。
 
 大家的经验和推荐或详尽入微或言简意赅，我觉得每个人选择最适合自己的就好。
 

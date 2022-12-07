@@ -191,14 +191,14 @@ for i in range(0, num):
         l[:] = []
 ```
 运行这个程序，会发现它占用了5.44GB的内存:
-![5.44GB.png](http://upload-images.jianshu.io/upload_images/72299-7b1d9c08913a068c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![5.44GB.png](https://upload-images.jianshu.io/upload_images/72299-7b1d9c08913a068c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 如果把整数个数减半，比如使用89478486，则会占用2.72GB内存（正好原来一半）：
 
-![2.72GB.png](http://upload-images.jianshu.io/upload_images/72299-ed50ba706a63c253.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![2.72GB.png](https://upload-images.jianshu.io/upload_images/72299-ed50ba706a63c253.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 一个`PyIntObject`占用多大内存呢？
-![da.png](http://upload-images.jianshu.io/upload_images/72299-3c80a1fc6b8039bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![da.png](https://upload-images.jianshu.io/upload_images/72299-3c80a1fc6b8039bc.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 讲道理，24 bytes x 178956971 = 4294967304 bytes，约等于2^32，也就是4GB，那么为什么会占用5.44GB呢？
 

@@ -18,7 +18,7 @@ description: "How to ETL -- JSON, Text, XML, CSV"
 
 将外部数据导入(import)数据库是在数据库应用中一个很常见的需求。其实这就是在数据的管理和操作中的[ETL (Extract, transform, load)](https://en.wikipedia.org/wiki/Extract,_transform,_load)的L (Load)部分，也就是说，将特定结构(structure)或者格式(format)的数据导入某个目的地(比如数据库，这里我们讨论MySQL)。
 
-![ETL Process](http://upload-images.jianshu.io/upload_images/72299-64cc20c0f1bfc678.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![ETL Process](https://upload-images.jianshu.io/upload_images/72299-64cc20c0f1bfc678.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 本文要讨论的内容，是如何方便地将多种格式(JSON, Text, XML, CSV)的数据导入MySQL之中。
 
@@ -60,7 +60,7 @@ LOAD DATA LOCAL INFILE '你的文件路径（如~/file.csv）'  INTO TABLE somet
 mysql --local-infile -uroot -pyourpwd yourdbname
 ```
 
-此外，我们也可以使用MySQL的一个官方导入程序[**mysqlimport** ](http://dev.mysql.com/doc/refman/5.7/en/mysqlimport.html)，这个程序本质上就是为LOAD DATA FILE提供了一个命令行的interface，很容易理解，我们这里就不再详述。
+此外，我们也可以使用MySQL的一个官方导入程序[**mysqlimport** ](https://dev.mysql.com/doc/refman/5.7/en/mysqlimport.html)，这个程序本质上就是为LOAD DATA FILE提供了一个命令行的interface，很容易理解，我们这里就不再详述。
 
 # 2. 将XML文件导入MySQL
 这件事的完成方式，与我们的XML的形式有着很大的关系。
@@ -148,7 +148,7 @@ mysql --local-infile -uroot -pyourpwd yourdbname
 这样的形势对于载入有一个好处：因为每一行是一个JSON Object，所以我们便可以按行处理此文件，而不需要因为JSON的严格结构将整个文件（比如一个许多G的.json文件）全部载入。
 
 ## 方式一 使用common-schema
-[common-schema](https://code.google.com/p/common-schema/)是一个应用很广泛的MySQL的框架，它有着很丰富的功能和详细的[文档](http://common-schema.googlecode.com/svn/trunk/common_schema/doc/html/introduction.html)。我们可以使用它的JSON解析的功能。（它还具有JSON转换成XML等等方便的功能）
+[common-schema](https://code.google.com/p/common-schema/)是一个应用很广泛的MySQL的框架，它有着很丰富的功能和详细的[文档](https://common-schema.googlecode.com/svn/trunk/common_schema/doc/html/introduction.html)。我们可以使用它的JSON解析的功能。（它还具有JSON转换成XML等等方便的功能）
 
 具体说来，将common-schema导入之后，使用它的`extract_json_value`函数即可。源码中：
 ```sql
@@ -170,14 +170,14 @@ mysql --local-infile -uroot -pyourpwd yourdbname
 当然了，我们也可以像之前处理XML文件导入一样，自己编写程序。这里便不再给出实例程序，有兴趣的读者可以自行编写或者跟笔者交流。
 
 ## 方式二 使用mysqljsonimport
-这是[Anders Karlsson](https://plus.google.com/107634974697175275751)的一个完成度很高的作品。这一份程序由C写成。它依赖于一个JSON Parser，[Jansson](http://www.digip.org/jansson/)。他们都有着比较好的维护和[文档](http://jansson.readthedocs.org/en/2.7/tutorial.html)，所以使用上体验很好。
+这是[Anders Karlsson](https://plus.google.com/107634974697175275751)的一个完成度很高的作品。这一份程序由C写成。它依赖于一个JSON Parser，[Jansson](https://www.digip.org/jansson/)。他们都有着比较好的维护和[文档](https://jansson.readthedocs.org/en/2.7/tutorial.html)，所以使用上体验很好。
 
-mysqljsonimport的下载在[SourceForge](http://sourceforge.net/projects/mysqljson/)上。具体使用参照其文档即可。
+mysqljsonimport的下载在[SourceForge](https://sourceforge.net/projects/mysqljson/)上。具体使用参照其文档即可。
 
 为了方便不熟悉源码安装的朋友，笔者在这里提一下安装流程和注意事项。
 安装命令顺序如下：
 
-	$ wget http://sourceforge.net/projects/mysqljson/files/myjsonimport_1.6/mysqljsonimport-1.6.tar.gz
+	$ wget https://sourceforge.net/projects/mysqljson/files/myjsonimport_1.6/mysqljsonimport-1.6.tar.gz
 	$ tar xvfz mysqljsonimport-1.6.tar.gz
 	$ cd mysqljsonimport-1.6
 	$ ./configure –-with-mysql=/xxx/mysql
@@ -193,14 +193,14 @@ mysqljsonimport的下载在[SourceForge](http://sourceforge.net/projects/mysqljs
 
 	$ ./mysqljsonimport –-database test –-table tablename jsonfilename
 
-还有一个parser，作者是Kazuho，感兴趣的读者可以参看一下，他的相关博文是[mysql_json - a MySQL UDF for parsing JSON ](http://blog.kazuhooku.com/2011/09/mysqljson-mysql-udf-for-parsing-json.html)，github项目是**[mysql_json](https://github.com/kazuho/mysql_json)**。
+还有一个parser，作者是Kazuho，感兴趣的读者可以参看一下，他的相关博文是[mysql_json - a MySQL UDF for parsing JSON ](https://blog.kazuhooku.com/2011/09/mysqljson-mysql-udf-for-parsing-json.html)，github项目是**[mysql_json](https://github.com/kazuho/mysql_json)**。
 
 # 4. 使用MySQL workbench
 Workbench这个工具对于许多不熟悉SQL语言或者命令行的朋友还是很方便和友好的。利用它，可以方便地导入和导出CSV和JSON文件。
 
 具体操作图例参见MySQL官方手册即可:[Table Data Export and Import Wizard](https://dev.mysql.com/doc/workbench/en/wb-admin-export-import-table.html)，这里不再赘述。
 
-![MySQL workbench](http://upload-images.jianshu.io/upload_images/72299-04a0a46ccc92e2df.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![MySQL workbench](https://upload-images.jianshu.io/upload_images/72299-04a0a46ccc92e2df.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 # 总结
@@ -211,6 +211,6 @@ Workbench这个工具对于许多不熟悉SQL语言或者命令行的朋友还�
 谢谢阅读，欢迎指正。
 
 ______
-*作者: freenik ([Jianshu](http://www.jianshu.com/users/202618da286b/latest_articles)); VonRyan ([CSDN](http://blog.csdn.net/vonryan))*
+*作者: freenik ([Jianshu](https://www.jianshu.com/users/202618da286b/latest_articles)); VonRyan ([CSDN](https://blog.csdn.net/vonryan))*
 
-*本文采用以下协议进行授权: [自由转载-非商用-非衍生-保持署名 | Creative Commons BY-NC-ND 3.0](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)，转载请标明作者出处，尊重原创。*
+*本文采用以下协议进行授权: [自由转载-非商用-非衍生-保持署名 | Creative Commons BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)，转载请标明作者出处，尊重原创。*

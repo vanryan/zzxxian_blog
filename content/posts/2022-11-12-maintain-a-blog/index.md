@@ -43,4 +43,6 @@ In the end, the key assets are the posts and tools/pages on the site, as long as
 
 Other notes:
 1. For tags, uppercase and lowercase letters are treated differently, thus the rule for me is to use all lowercase by default, but for special names I use uppercase or capitalized (essentially respecting the original names) -- "finance", "GraphQL", "technical". Only those rare cases though.
-2. For tags, use dash `-` to concatenate words if absolutely necessary. No camelCase.
+2. For tags, I use dash `-` to concatenate words if absolutely necessary. No camelCase.
+3. For static assets like images, gatsby supports a couple of ways to include them (https://www.gatsbyjs.com/docs/how-to/images-and-media/). Generally one can just use relative path to do the trick – put xx.image in the same folder as index.md, and in index.md, do `./xx.image` to refer to it, and when the pages are generated, the image will be copied to the public folder's static folders and the html page will have a reasonable path.
+4. How to link to other pages? One way would of course be use public links, that could be a little bit hard to maintain from the developer's side though. Another way will be through the `slug` field in each post .md. Notice the how the URL to each post is made up of. Essentially the yaml metadata's `slug` field denotes the final part of its eventual URL. And simply use that and relative path will do the trick. Same goes across directories.

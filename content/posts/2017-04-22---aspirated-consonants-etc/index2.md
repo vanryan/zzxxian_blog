@@ -1,17 +1,18 @@
 ---
 title: 什么是音素，音位？（中日韩英语音选谈——2）
 date: "2017-04-23T13:47:52.217Z"
-layout: post
+template: post
 draft: false
 path: "/posts/what-is-a-phone/"
 category: "gengo"
 collection: "misc"
+slug: "aspirated-consonants-2"
 tags:
-  - "Language"
-  - "Japanese"
-  - "Chinese"
-  - "Phonetics"
-  - "English"
+  - "language"
+  - "japanese"
+  - "chinese"
+  - "phonetics"
+  - "english"
 description: "某个语言使用者，对其使用语言的某个表意声音单位的声音认知。"
 ---
 
@@ -31,10 +32,10 @@ description: "某个语言使用者，对其使用语言的某个表意声音单
 
 ----
 ## 系列
-1. [送气／不送气音，清音／浊音（中日英韩语音选谈--1）](https://www.jianshu.com/p/6f5cb3d07ea7)
-2. [什么是音素，音位？（中日韩英语音选谈——2）](https://www.jianshu.com/p/2665b5655ef9)
-3. [韩语松音，紧音，送气音（激音）（中日韩英语音选谈——3）](https://www.jianshu.com/p/8df495fc7558)
-4. [为什么我们有口音？（中日韩英语音选谈——4）](https://www.jianshu.com/p/725252c47961)
+1. [送气／不送气音，清音／浊音（中日英韩语音选谈--1）-简书](https://www.jianshu.com/p/6f5cb3d07ea7)  | [本站 -1](./aspirated-consonants-1)
+2. [什么是音素，音位？（中日韩英语音选谈——2）-简书](https://www.jianshu.com/p/2665b5655ef9) | [本站 -2](./aspirated-consonants-2)
+3. [韩语松音，紧音，送气音（激音）（中日韩英语音选谈——3）-简书](https://www.jianshu.com/p/8df495fc7558) | [本站 -3](./aspirated-consonants-3)
+4. [为什么我们有口音？（中日韩英语音选谈——4）-简书](https://www.jianshu.com/p/725252c47961) | [本站 -4](./aspirated-consonants-4)
 
 ----
 

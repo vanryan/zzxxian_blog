@@ -1,15 +1,16 @@
 ---
 title: 韩语松音，紧音，送气音（激音）（中日韩英语音选谈——3）
 date: "2017-04-24T15:17:52.217Z"
-layout: post
+template: post
 draft: false
 path: "/posts/korean-plain-tense-aspirated/"
 category: "gengo"
 collection: "misc"
+slug: "aspirated-consonants-3"
 tags:
-  - "Language"
-  - "Phonetics"
-  - "Korean"
+  - "language"
+  - "phonetics"
+  - "korean"
 description: "
     松音（평음，汉字-平音）：ㄱ,ㄷ,ㅂ,ㅅ,ㅈ
     紧音（경음，汉字-硬音）：ㄲ,ㄸ,ㅃ,ㅆ,ㅉ
@@ -32,10 +33,10 @@ description: "
 
 ----
 ## 系列
-1. [送气／不送气音，清音／浊音（中日英韩语音选谈--1）](https://www.jianshu.com/p/6f5cb3d07ea7)
-2. [什么是音素，音位？（中日韩英语音选谈——2）](https://www.jianshu.com/p/2665b5655ef9)
-3. [韩语松音，紧音，送气音（激音）（中日韩英语音选谈——3）](https://www.jianshu.com/p/8df495fc7558)
-4. [为什么我们有口音？（中日韩英语音选谈——4）](https://www.jianshu.com/p/725252c47961)
+1. [送气／不送气音，清音／浊音（中日英韩语音选谈--1）-简书](https://www.jianshu.com/p/6f5cb3d07ea7)  | [本站 -1](./aspirated-consonants-1)
+2. [什么是音素，音位？（中日韩英语音选谈——2）-简书](https://www.jianshu.com/p/2665b5655ef9) | [本站 -2](./aspirated-consonants-2)
+3. [韩语松音，紧音，送气音（激音）（中日韩英语音选谈——3）-简书](https://www.jianshu.com/p/8df495fc7558) | [本站 -3](./aspirated-consonants-3)
+4. [为什么我们有口音？（中日韩英语音选谈——4）-简书](https://www.jianshu.com/p/725252c47961) | [本站 -4](./aspirated-consonants-4)
 
 ----
 这一篇我们结合送气、非送气音，清音、浊音的概念——参见[送气／不送气音，清音／浊音（中日英韩语音选谈--1）](https://www.jianshu.com/p/6f5cb3d07ea7)，讨论一下韩语的松音，紧音，送气音（激音）。

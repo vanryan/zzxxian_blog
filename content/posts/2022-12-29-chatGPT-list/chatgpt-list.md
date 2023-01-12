@@ -54,14 +54,14 @@ There is a good current landscape FYI –
 
 Great:
 1. Starter code / boilerplate code → this is a great use case, say if you are not familiar with a certain language, but you are learning or you are implementing a piece of code for a defined set of demands, chatGPT can give you a good starting point if you get your prompt right
-2. Get steps for implementing a functionality or a common pipeline – ![graphql_use](./graphql_use.png "graphql_use")
-3. Explain code (the whole logic, some specific details, confusion about syntax, etc.)
-4. Improve code - use specific demands 
+2. Get steps for implementing a functionality or a common pipeline, or connect service/functions together– ![graphql_use](./graphql_use.png "graphql_use")- Another example - "Generate python code that uses Azure to read an image and calculate the sentiment of it" (got this idea from some tweet, and chatGPT produces a even better response at the moment of writing). See how it includes example endpoints/urls → ![](./image_sentiment.png)
+4. Explain code (the whole logic, some specific details, confusion about syntax, etc.)
+5. Improve code - use specific demands 
     - rewrite using the correct convention/style
     - reformat code, for e.g. make a python program more Pythonic; or simplification
     - performance
     - rewrite using other ways
-5. Ask for some small ready-to-use code/command snippets (Git commands, bash commands, etc.)
+6. Ask for some small ready-to-use code/command snippets (Git commands, bash commands, etc.)
 
 Good:
 1. Write tests - unit tests, etc.

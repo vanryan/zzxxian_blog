@@ -15,13 +15,22 @@
     {
       "label": "Techy",
       "path": "/tag/technical"
-    },{
+    },
+    {
+      "label": "AI",
+      "path": "/tag/ai"
+    },
+    {
       "label": "Web3",
       "path": "/tag/web3"
     },
     {
       "label": "Tools",
       "path": "/pages/tools"
+    },
+    {
+      "label": "Threads",
+      "path": "/pages/threads"
     },
     {
       "label": "Bin",

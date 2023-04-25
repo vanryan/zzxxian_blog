@@ -4,4 +4,4 @@ template: "page"
 ---
 
 ## On Going Notes
-- [Golang](golang)
+- [Golang](./bin/golang)
